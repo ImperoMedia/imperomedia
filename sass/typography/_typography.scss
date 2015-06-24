@@ -1,0 +1,50 @@
+body,
+button,
+input,
+select,
+textarea {
+	color: $color__text-main;
+	font-family: $font__main;
+	@include font-size(1);
+	line-height: $font__line-height-body;
+}
+
+@import "headings";
+
+@import "copy";
+
+.entry-header {
+	h1 {
+		font-family: $gotham;
+		text-transform: uppercase;
+		font-size: 2.5rem;
+	}
+}
+.site-branding h2 a {
+	color: $white;
+	text-transform: uppercase;
+	font-size: 1.5em;
+	font-family: $gotham;
+	text-decoration: none;
+	float: left;
+	padding-left: 100px;
+	font-weight: 300;
+}
+.f-nav h2 a {
+	color: $red;
+	-webkit-transition: color 0.25s ease-in-out;
+	-moz-transition: color 0.25s ease-in-out;
+	transition: color 0.25s ease-in-out;
+}
+.wf-inactive .site-branding, .wf-inactive .site-branding h1, .wf-inactive .site-branding h1 a, .wf-inactive .site-branding h2 {
+	font-family: $font__title__backup;
+}
+/*Footer*/
+.site-footer, .site-footer a {
+	font-size: 10px;
+	font-family: $serif;
+	color: $white;
+	text-align: center;
+	margin: 0 auto;
+	clear: both;
+}

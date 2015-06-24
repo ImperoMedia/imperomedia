@@ -1,0 +1,26 @@
+@import url(http://fonts.googleapis.com/css?family=Libre+Baskerville:400,700,400italic);
+
+$proxima: "proxima-nova";
+$bebas: "bebas-neue";
+$proxima_condensed: "proxima-nova-condensed";
+$proxima_extra: "proxima-nova-extra-condensed";
+
+$gotham: 'Gotham Narrow SSm A', 'Gotham Narrow SSm B'; /* 200, 300, 400, 500, 700, 800 */
+$knockout: 'Knockout 48 A', 'Knockout 48 B'; /* Only one weight */
+$sentinel: 'Sentinel SSm A', 'Sentinel SSm B'; /* 400, 600 - normal, italic */
+$didot: 'Didot 06 A', 'Didot 06 B'; /* 300, 500 - normal, italic */
+
+// $serif: 'Libre Baskerville', 'Georgie', serif;
+$serif: $sentinel;
+
+$font__main: $serif;
+$font__code: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
+$font__pre: "Courier 10 Pitch", Courier, monospace;
+$font__line-height-body: 1.6875;
+$font__line-height-pre: 1.6;
+$font__sans: $gotham, sans-serif;
+$font__title: "gotham", 'Oswald', sans-serif;
+$font__title__backup: 'Oswald', sans-serif;
+$font__menu: "gotham", 'Roboto', sans-serif;
+
+$sub_title: $knockout;

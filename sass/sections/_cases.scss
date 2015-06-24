@@ -1,0 +1,59 @@
+#cases {
+	.case_top_container {
+		max-width: 960px;
+		margin: 0 auto;
+	h1, h2 {
+		text-transform: uppercase;
+		font-family: $proxima;
+		margin: 0;
+		line-height: 1;
+		text-align: center;
+	}
+	h1 {
+		font-size: 4em; 
+		margin-top: 30px;
+		color: $red;
+	}
+	h2 {
+		font-size: 2em;
+		color: $white;
+		background: $dark;
+		padding: 10px 0;
+		width: 50%;
+		margin: 5px auto;
+	}
+	h3 {
+		font-size: 17px;
+		line-height: 32px;
+		font-weight: 600;
+		padding: 0 50px;
+		font-family: $proxima;
+		text-align: center;
+	}
+}
+	.case_content {
+		h2 {
+		}
+		h3 {
+			text-transform: uppercase;
+			font-family: $proxima;
+			font-size: 22px;
+			margin-top: 50px;
+			color: #fff;
+			background: $light;
+			width: 30%;
+			padding: 5px 0 5px 15px;
+		}
+		h4 {
+			font-style: italic;
+			margin: 0;
+			color: $red;
+			padding-right: 325px;
+		}
+		p {
+			font-size: 16px;
+			line-height: 28px;
+			padding: 0 50px;
+		}
+	}
+}

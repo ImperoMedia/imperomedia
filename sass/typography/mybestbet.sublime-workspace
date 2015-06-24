@@ -1,0 +1,455 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"back",
+				"background-color: "
+			],
+			[
+				"faded",
+				"faded_white"
+			],
+			[
+				"ls",
+				"list-style: "
+			],
+			[
+				"an",
+				"animation-duration: "
+			],
+			[
+				"ani",
+				"animation-delay: "
+			],
+			[
+				"br",
+				"border-radius"
+			],
+			[
+				"b",
+				"border"
+			],
+			[
+				"font-s",
+				"font-size"
+			],
+			[
+				"the",
+				"the_field"
+			],
+			[
+				"wp_",
+				"wp_enqueue_style"
+			],
+			[
+				"box-s",
+				"box-sizing: "
+			],
+			[
+				"pa",
+				"padding-right"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 347.0,
+		"last_filter": "Package Control: ",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: i",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 575.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Applications/mampstack-5.4.37-0/apps/wordpress/htdocs/mybestbet/wp-content/themes/mybestbet"
+	],
+	"file_history":
+	[
+		"/Applications/mampstack-5.4.37-0/apps/wordpress/htdocs/wp-content/themes/imperomedia15/content-single.php",
+		"/Applications/mampstack-5.4.37-0/apps/wordpress/htdocs/wp-content/themes/imperomedia15/content-none.php",
+		"/Applications/mampstack-5.4.37-0/apps/wordpress/htdocs/wp-content/themes/imperomedia15/sass/navigation/_menus.scss",
+		"/Applications/mampstack-5.4.37-0/apps/wordpress/htdocs/wp-content/themes/imperomedia15/single.php",
+		"/Applications/mampstack-5.4.37-0/apps/wordpress/htdocs/wp-content/themes/imperomedia15/index.php",
+		"/Applications/mampstack-5.4.37-0/apps/wordpress/htdocs/wp-content/themes/imperomedia15/sass/typography/_typography.scss",
+		"/Applications/mampstack-5.4.37-0/apps/wordpress/htdocs/wp-content/themes/imperomedia15/sass/typography/_copy.scss",
+		"/Applications/mampstack-5.4.37-0/apps/wordpress/htdocs/wp-content/themes/imperomedia15/sass/variables-site/_typography.scss",
+		"/Applications/mampstack-5.4.37-0/apps/wordpress/htdocs/wp-content/themes/imperomedia15/sass/mixins/_mixins-master.scss",
+		"/Applications/mampstack-5.4.37-0/apps/wordpress/htdocs/wp-content/themes/imperomedia15/section-services.php",
+		"/Users/lukekohler/Dropbox/- Work/-  Elance Work/BLR/- Migrate15/Backups/Dev/smartbox-installable/locations.php",
+		"/Applications/mampstack-5.4.37-0/apps/wordpress/htdocs/wp-content/themes/imperomedia15/functions.php",
+		"/Applications/mampstack-5.4.37-0/apps/wordpress/htdocs/wp-content/themes/imperomedia15/page.php",
+		"/Users/lukekohler/Dropbox/- Work/-  Elance Work/BLR/- Migrate15/Backups/Live/smartbox-installable/header.php",
+		"/private/var/folders/p4/hlfkm13j327g4t7phj5_vtx80000gp/T/fz3temp-1/header.php",
+		"/Users/lukekohler/Dropbox/- Work/-  Elance Work/BLR/Pages/blue365.php",
+		"/Applications/mampstack-5.4.37-0/apps/wordpress/htdocs/wp-content/themes/imperomedia15/header.php",
+		"/Users/lukekohler/Library/Application Support/Sublime Text 3/Packages/User/ColorHighlighter.sublime-settings",
+		"/Applications/mampstack-5.4.37-0/apps/wordpress/htdocs/wp-content/themes/imperomedia15/sass/variables-site/_structure.scss",
+		"/Applications/mampstack-5.4.37-0/apps/wordpress/htdocs/wp-content/themes/imperomedia15/section-intro.php",
+		"/Users/lukekohler/Dropbox/- Work/- Impero Media/- Content/Site Pages/clients.html",
+		"/private/var/folders/p4/hlfkm13j327g4t7phj5_vtx80000gp/T/fz3temp-1/rates.php",
+		"/Applications/mampstack-5.4.37-0/apps/wordpress/htdocs/wp-content/themes/imperomedia15/section-about.php",
+		"/Applications/mampstack-5.4.37-0/apps/wordpress/htdocs/wp-content/themes/imperomedia15/sass/typography/_headings.scss",
+		"/Applications/mampstack-5.4.37-0/apps/wordpress/htdocs/wp-content/themes/imperomedia15/js/text_rotate_word.js",
+		"/private/var/folders/p4/hlfkm13j327g4t7phj5_vtx80000gp/T/fz3temp-1/nav_pulse.js",
+		"/private/var/folders/p4/hlfkm13j327g4t7phj5_vtx80000gp/T/fz3temp-1/countdown.js",
+		"/Applications/mampstack-5.4.37-0/apps/wordpress/htdocs/wp-content/themes/imperomedia15/js/sticky_menu.js",
+		"/Applications/mampstack-5.4.37-0/apps/wordpress/htdocs/wp-config.php",
+		"/Users/lukekohler/Dropbox/- Work/- Impero Media/- Content/Site Pages/ourprocess.html",
+		"/Users/lukekohler/Dropbox/- Work/-  Elance Work/BLR/Email/EmailList051505.txt",
+		"/Users/lukekohler/Dropbox/- Work/-  Elance Work/BLR/- Migrate15/Backups/Drive Token Secret",
+		"/Applications/mampstack-5.4.37-0/apps/wordpress/htdocs/wp-content/themes/imperomedia15/style.css",
+		"/private/var/folders/p4/hlfkm13j327g4t7phj5_vtx80000gp/T/fz3temp-1/_structure.scss",
+		"/private/var/folders/p4/hlfkm13j327g4t7phj5_vtx80000gp/T/fz3temp-1/home-template-2015.php",
+		"/private/var/folders/p4/hlfkm13j327g4t7phj5_vtx80000gp/T/fz3temp-1/blr-custom.css",
+		"/private/var/folders/p4/hlfkm13j327g4t7phj5_vtx80000gp/T/fz3temp-1/locations.php",
+		"/private/var/folders/p4/hlfkm13j327g4t7phj5_vtx80000gp/T/fz3temp-1/footer.php",
+		"/private/var/folders/p4/hlfkm13j327g4t7phj5_vtx80000gp/T/fz3temp-1/wp-config.php",
+		"/private/var/folders/p4/hlfkm13j327g4t7phj5_vtx80000gp/T/fz3temp-1/googlec55310faa35e04c1.html",
+		"/Users/lukekohler/Dropbox/- Work/-  Elance Work/BLR/- Migrate15/Backups/contactus.html",
+		"/Applications/mampstack-5.4.37-0/apps/wordpress/htdocs/wp-content/themes/imperomedia15/page_templates/front.php",
+		"/Applications/mampstack-5.4.37-0/apps/wordpress/htdocs/wp-content/themes/imperomedia15/section-cases.php",
+		"/private/var/folders/p4/hlfkm13j327g4t7phj5_vtx80000gp/T/fz3temp-1/_typography.scss",
+		"/Applications/mampstack-5.4.37-0/apps/wordpress/htdocs/wp-content/themes/imperomedia15/sass/sections/_cases.scss",
+		"/private/var/folders/p4/hlfkm13j327g4t7phj5_vtx80000gp/T/fz3temp-1/.htaccess",
+		"/private/var/folders/p4/hlfkm13j327g4t7phj5_vtx80000gp/T/fz3temp-1/wp-load.php",
+		"/private/var/folders/p4/hlfkm13j327g4t7phj5_vtx80000gp/T/fz3temp-1/class.akismet.php",
+		"/Applications/mampstack-5.4.37-0/apps/wordpress/htdocs/wp-content/themes/imperomedia15/sass/site/secondary/_widgets.scss",
+		"/private/var/folders/p4/hlfkm13j327g4t7phj5_vtx80000gp/T/fz3temp-1/_widgets.scss",
+		"/private/var/folders/p4/hlfkm13j327g4t7phj5_vtx80000gp/T/fz3temp-1/front.php",
+		"/private/var/folders/p4/hlfkm13j327g4t7phj5_vtx80000gp/T/fz3temp-1/functions.php",
+		"/Applications/mampstack-5.4.37-0/apps/wordpress/htdocs/wp-content/themes/imperomedia15/content.php",
+		"/private/var/folders/p4/hlfkm13j327g4t7phj5_vtx80000gp/T/fz3temp-1/uninstall.php",
+		"/private/var/folders/p4/hlfkm13j327g4t7phj5_vtx80000gp/T/fz3temp-1/section-intro.php",
+		"/Applications/mampstack-5.4.37-0/apps/wordpress/htdocs/wp-content/themes/imperomedia15/section-contact.php",
+		"/Applications/mampstack-5.4.37-0/apps/wordpress/htdocs/wp-content/themes/imperomedia15/single-study.php",
+		"/Applications/mampstack-5.4.37-0/apps/wordpress/htdocs/wp-content/themes/imperomedia15/sass/style.scss",
+		"/Applications/mampstack-5.4.37-0/apps/wordpress/htdocs/wp-content/themes/imperomedia15/content-page.php",
+		"/Applications/mampstack-5.4.37-0/apps/wordpress/htdocs/wp-content/themes/imperomedia15/content-cases.php",
+		"/Applications/mampstack-5.4.37-0/apps/wordpress/htdocs/tot/wp-content/themes/tot/Page Templates/front.php",
+		"/private/var/folders/p4/hlfkm13j327g4t7phj5_vtx80000gp/T/fz3temp-1/countdown 2.js",
+		"/Applications/mampstack-5.4.37-0/apps/wordpress/htdocs/wp-content/themes/imperomedia15/footer.php",
+		"/Applications/mampstack-5.4.37-0/apps/wordpress/htdocs/tot/wp-content/themes/tot/header.php",
+		"/Applications/mampstack-5.4.37-0/apps/wordpress/htdocs/tot/wp-content/themes/tot/footer.php",
+		"/Applications/mampstack-5.4.37-0/apps/wordpress/htdocs/wp-content/themes/imperomedia15/section-work.php",
+		"/Applications/mampstack-5.4.37-0/apps/wordpress/htdocs/wp-content/themes/imperomedia15/sass/elements/_portfolio.scss",
+		"/Applications/mampstack-5.4.37-0/apps/wordpress/htdocs/mybestbet/wp-config.php",
+		"/Users/lukekohler/Dropbox/- Work/-.GitHub/blr-home-2015/rates_tab.js",
+		"/private/var/folders/p4/hlfkm13j327g4t7phj5_vtx80000gp/T/fz3temp-1/accordion_loc.js",
+		"/Users/lukekohler/Dropbox/- Work/-.GitHub/blr-home-2015/location_accordion.js",
+		"/Users/lukekohler/Dropbox/- Work/-  Elance Work/BLR/- Assets/Code/accordion_loc.js",
+		"/Users/lukekohler/Dropbox/- Work/-  Elance Work/BLR/- Assets/Code/accordion.js",
+		"/Users/lukekohler/Dropbox/- Work/-.GitHub/blr-home-2015/rates.php",
+		"/Users/lukekohler/Dropbox/- Work/-.GitHub/blr-home-2015/blr-custom.css",
+		"/Users/lukekohler/Dropbox/- Work/-.GitHub/blr-home-2015/locations.php",
+		"/Applications/mampstack-5.4.37-0/apps/wordpress/htdocs/wp-content/themes/imperomedia15/sass/forms/_forms.scss",
+		"/Users/lukekohler/Dropbox/- Work/-.GitHub/blr-home-2015/footer.php",
+		"/private/var/folders/p4/hlfkm13j327g4t7phj5_vtx80000gp/T/fz3temp-1/settings.inc.php",
+		"/Users/lukekohler/Documents/-.GitHub/harvestweb/index.php",
+		"/private/var/folders/p4/hlfkm13j327g4t7phj5_vtx80000gp/T/fz3temp-1/jquery-ui-1.8.16.custom.css",
+		"/private/var/folders/p4/hlfkm13j327g4t7phj5_vtx80000gp/T/fz3temp-1/style.css",
+		"/private/var/folders/p4/hlfkm13j327g4t7phj5_vtx80000gp/T/fz3temp-1/invoices.php",
+		"/private/var/folders/p4/hlfkm13j327g4t7phj5_vtx80000gp/T/fz3temp-1/login.php",
+		"/private/var/folders/p4/hlfkm13j327g4t7phj5_vtx80000gp/T/fz3temp-1/index.php",
+		"/Users/lukekohler/Documents/-.GitHub/harvestweb/inc/settings.inc.php",
+		"/Users/lukekohler/Documents/-.GitHub/Harvest4Clients/inc/settings.inc.php",
+		"/Users/lukekohler/Dropbox/- Work/- Impero Media/humans.txt",
+		"/private/var/folders/p4/hlfkm13j327g4t7phj5_vtx80000gp/T/fz3temp-1/humanstxt.php",
+		"/Users/lukekohler/Dropbox/- Work/- Ana Studios/favorites2.html",
+		"/Users/lukekohler/Downloads/impero_media_2015/header.php",
+		"/Applications/mampstack-5.4.37-0/apps/wordpress/htdocs/wp-content/themes/imperomedia15/sass/variables-site/_colors.scss",
+		"/Applications/mampstack-5.4.37-0/apps/wordpress/htdocs/mybestbet/wp-content/themes/mybestbet/header.php",
+		"/Users/lukekohler/Dropbox/- Work/-  Elance Work/BLR/Pages/Rates/table.css",
+		"/private/var/folders/p4/hlfkm13j327g4t7phj5_vtx80000gp/T/fz3temp-1/rates_tab.js",
+		"/Users/lukekohler/Dropbox/- Work/-  Elance Work/BLR/Pages/Rates/table.html",
+		"/Users/lukekohler/Dropbox/- Work/-  Elance Work/BLR/Pages/Tab/tab.css",
+		"/Users/lukekohler/Dropbox/- Work/-  Elance Work/BLR/Pages/Tab/tab.html",
+		"/private/var/folders/p4/hlfkm13j327g4t7phj5_vtx80000gp/T/fz3temp-1/accordion.js",
+		"/Users/lukekohler/Dropbox/- Work/-  Elance Work/BLR/Pages/Tab/rates_tab.js",
+		"/Users/lukekohler/Dropbox/- Work/-  Elance Work/BLR/Pages/Rates/rates.php",
+		"/Users/lukekohler/Dropbox/- Work/-  Elance Work/BLR/- Assets/Code/blr-custom.css",
+		"/Users/lukekohler/Dropbox/- Work/-  Elance Work/BLR/style_backup_040215.css",
+		"/Users/lukekohler/Dropbox/- Work/-  Elance Work/BLR/functions_backup_040215.php",
+		"/private/var/folders/p4/hlfkm13j327g4t7phj5_vtx80000gp/T/fz3temp-1/blr-style.css",
+		"/private/var/folders/p4/hlfkm13j327g4t7phj5_vtx80000gp/T/fz3temp-1/template-home.php",
+		"/private/var/folders/p4/hlfkm13j327g4t7phj5_vtx80000gp/T/fz3temp-1/Copyright.php",
+		"/private/var/folders/p4/hlfkm13j327g4t7phj5_vtx80000gp/T/fz3temp-1/akismet.php",
+		"/Users/lukekohler/Dropbox/- Work/Plugins/akismet/akismet.php",
+		"/Applications/mampstack-5.4.37-0/apps/wordpress/htdocs/mybestbet/wp-content/themes/mybestbet/sass/variables-site/_colors.scss",
+		"/Applications/mampstack-5.4.37-0/apps/wordpress/htdocs/mybestbet/wp-content/themes/mybestbet/sass/variables-site/_structure.scss",
+		"/Applications/mampstack-5.4.37-0/apps/wordpress/htdocs/mybestbet/wp-content/themes/mybestbet/sass/typography/_headings.scss",
+		"/Applications/mampstack-5.4.37-0/apps/wordpress/htdocs/mybestbet/wp-content/themes/mybestbet/sass/variables-site/_typography.scss",
+		"/Applications/mampstack-5.4.37-0/apps/wordpress/htdocs/mybestbet/wp-content/themes/mybestbet/sass/navigation/_menus.scss",
+		"/Applications/mampstack-5.4.37-0/apps/wordpress/htdocs/mybestbet/wp-content/themes/mybestbet/index.php",
+		"/private/var/folders/p4/hlfkm13j327g4t7phj5_vtx80000gp/T/fz3temp-1/blog-template.php",
+		"/private/var/folders/p4/hlfkm13j327g4t7phj5_vtx80000gp/T/fz3temp-1/blog-template 2.php",
+		"/private/var/folders/p4/hlfkm13j327g4t7phj5_vtx80000gp/T/fz3temp-1/archive.php",
+		"/Users/lukekohler/Dropbox/- Work/-  Elance Work/BLR/New Home/Backups/Dev/style.css",
+		"/Users/lukekohler/Dropbox/- Work/-  Elance Work/BLR/New Home/Home Template 2015.php",
+		"/Applications/mampstack-5.4.37-0/apps/wordpress/htdocs/mybestbet/wp-content/themes/mybestbet/content-picks.php",
+		"/Applications/mampstack-5.4.37-0/apps/wordpress/htdocs/mybestbet/wp-content/themes/mybestbet/sass/_normalize.scss",
+		"/private/var/folders/p4/hlfkm13j327g4t7phj5_vtx80000gp/T/fz3temp-1/style 2.css",
+		"/Applications/mampstack-5.4.37-0/apps/wordpress/htdocs/mybestbet/wp-content/themes/mybestbet/sass/site/secondary/_widgets.scss",
+		"/Applications/mampstack-5.4.37-0/apps/wordpress/htdocs/mybestbet/wp-content/themes/mybestbet/single-pick.php",
+		"/Applications/mampstack-5.4.37-0/apps/wordpress/htdocs/mybestbet/wp-content/themes/mybestbet/footer.php",
+		"/Applications/mampstack-5.4.37-0/apps/wordpress/htdocs/mybestbet/wp-content/themes/mybestbet/content-single.php",
+		"/Applications/mampstack-5.4.37-0/apps/wordpress/htdocs/mybestbet/wp-content/themes/mybestbet/single.php"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"font-si",
+			"thumb",
+			"analy",
+			"margin: 0;",
+			"<ul>",
+			"ul",
+			"h3",
+			"0",
+			"	",
+			"	\n",
+			"  ",
+			" / ",
+			".com	",
+			".com *",
+			".com ",
+			".com*",
+			"/ 2000",
+			"/ 250",
+			"∞ ",
+			"0 / 250 ",
+			"MB",
+			" \n",
+			"			\n",
+			"More",
+			"Delete",
+			"Change Quota",
+			"Change Password",
+			"mb",
+			"h5",
+			"envel",
+			"email",
+			"img src",
+			"form",
+			"b9528f",
+			";\n",
+			"2px",
+			"full",
+			"cell",
+			"header",
+			"row",
+			"table",
+			"wrapper",
+			".tab",
+			"blrloc",
+			"background: url",
+			"fullwidth-container",
+			"fullw",
+			"img",
+			"decora",
+			"h1",
+			"\n.",
+			"widg",
+			"site-main",
+			"info",
+			"wpcf",
+			"							</",
+			"form_box h2",
+			"blrhome",
+			"<div class=\"",
+			"blrhome_",
+			"table_1_13",
+			"a:not",
+			"1_13",
+			"blrcta",
+			"phone",
+			"copys",
+			"phone",
+			"social",
+			"email",
+			"window",
+			"dopb",
+			"newhomereplace",
+			"n-li",
+			"dopb",
+			"email",
+			"1152",
+			"static",
+			"front",
+			"list-type",
+			"h2>"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"margin: 0; list-style: none;",
+			"<ul style=\"margin: 0;\">",
+			"ul style=\"margin: 0;\"",
+			"h4",
+			"",
+			".com",
+			"",
+			"1px",
+			"price_cell",
+			"price_header",
+			"price_row",
+			"price_table",
+			"price_wrapper",
+			".rates_tab",
+			"rates",
+			"blrloc",
+			"blrloc_",
+			"blrcta",
+			"blrhome",
+			"newhomereplace_phone_bar",
+			"list-style",
+			"h3>"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "mybestbet.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 206.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

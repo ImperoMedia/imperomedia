@@ -1,0 +1,59 @@
+@import "buttons";
+
+@import "fields";
+
+.wpcf7
+{
+    background-color: $white;
+}
+
+.wpcf7 input[type="text"],
+.wpcf7 input[type="email"],
+.wpcf7 textarea
+{
+    background-color: #fff;
+    color: $red;
+    width: 80%;
+}
+
+.wpcf7 {
+	body, input, select, textarea {
+	font-family: $serif;
+	color: $red;
+	padding: 7px 10px;
+	&::-webkit-input-placeholder {
+		color: $faded_red;
+		;
+	}
+	&:-moz-placeholder { /* Firefox 18- */
+		color: $faded_red;  
+	}
+	&::-moz-placeholder {  /* Firefox 19+ */
+		color: $faded_red;  
+	}
+	&:-ms-input-placeholder {  
+		color: $faded_red;  
+	}
+}
+}
+
+button, input[type="button"], input[type="reset"], input[type="submit"] {
+	border: 1px solid $white;
+	border-radius: 3px;
+	background: $gunMetal;
+	box-shadow: none;
+	color: $white;
+	font-size: 16px;
+	font-size: 1rem;
+	font-family: $proxima_condensed;
+	text-transform: uppercase;
+	line-height: 1;
+	padding: 1em 2em;
+	text-shadow: 0 0 0 rgba(255, 255, 255, 0.8);
+	min-width: 25%;
+	margin-top: 10px;
+	&:hover {
+		background: $dark_gun;
+		box-shadow: none;
+	}
+}

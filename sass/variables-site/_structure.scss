@@ -1,0 +1,370 @@
+$size__site-main: 100%;
+$size__site-sidebar: 25%;
+html, body, .main-content-area, .full, .site-main {height: 100%;}
+.site-header {
+}
+.site-footer {
+	min-height: 100px;
+}
+.site-main, .main-content-area, .full, .site-main {
+	display: inline;
+}
+.main-content-area {
+	width: 100%;
+	margin: 0 auto;
+	max-width: 1440px;
+	padding: 100px 50px;
+	display: inline;
+}
+.main-navigation {
+	float: right;
+	margin-top: 10px;
+}
+.nav-container {
+	height: 75px;
+	box-shadow: $white 0px 1px 1px;
+	background: $dark_red;
+	width: 100%;
+	position: fixed;
+	line-height: 2.5em;
+	z-index: 2;
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+	box-sizing: border-box;
+}
+.f-nav {
+	background: $faded_white;
+	box-shadow: $faded_red 0 1px 1px;
+	height: 60px;
+	z-index: 3;
+	margin: -10px 0;
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+}
+.site-branding {
+	width: 30%;
+	min-width: 350px;
+	float: left;
+	overflow: hidden;
+}
+.nav-social {
+	display: inline;
+	float: right;
+	margin-top: 20px;
+	padding-right: 20px;
+	ul {
+		list-style: none;
+		margin: 0;
+	}
+	li {
+		float: left;
+		width: 20%;
+		min-width: 25px;
+		.fa-2x {
+			font-size: 24px;
+		}
+	}
+	ul li a {
+		color: $white;
+		display: inline;
+		padding: 10px;
+		&:hover {
+			color: $dark_red;
+			background: $white;
+		}
+	}
+	 @media (max-width: 1175px) {
+	 	display: none;
+	 }
+}
+.f-nav {
+	.nav-social a {
+		color: $dark_red;
+		&:hover {
+			color: $red;
+		}
+	}
+}
+.main-page {
+	max-width: 1170px;
+	margin: 0 auto;
+	padding: 0 50px;
+}
+.inner {
+	padding: 2em 0 0 0;
+}
+#page-primary {
+	max-width: 900px;
+	margin: 100px auto;
+}
+.blog_meta {
+	display: inline;
+	width: 25%;
+	float: left;
+	padding-right: 15px;
+	margin-top: 1.5rem;
+	font-size: 12px;
+	h3 {
+		font-weight: 300;
+		margin: 10px 0;
+	}
+	h4 {
+		font-weight: 600;
+		font-style: italic;
+	}
+}
+.blog_content {
+	display: inline;
+	width: 75%;
+	float: left;
+}
+#primary {
+	float: left;
+	width: 66.666666%;
+	// padding: 20px;
+	.content-area {
+
+	}
+}
+#secondary {
+	float: left;
+	width: 33.33333%;
+	padding: 20px 20px 0 0;
+}
+.site-description {
+	display: none;
+}
+.site-title {
+	margin-top: 15px;
+	overflow: hidden;
+	float: left;
+}
+/**************************
+Home Page Hero Section
+**************************/
+.hero_content, .intro_headline, .intro_content {
+	display: block;
+	text-align: right;
+	max-width: 1040px;
+	height: 100%;
+	animation-delay: 0.5s;
+	-webkit-animation-delay: 0.5s;
+	animation-duration: 2s;
+	-webkit-animation-duration: 2s;
+	h2, h3, h4 {
+		margin: 0;
+		padding: 0;
+		color: $paper;
+		font-family: $font__title;
+		text-transform: uppercase;
+		line-height: 1;
+	}
+	h2 {
+		font-size: 6em;
+		padding-bottom: 10px;
+		padding-top: 100px;
+	}
+	h3 {
+		font-size: 2.5em;
+		padding-bottom: 20px;
+	}
+	h4 {
+		font-size: 1.5em;
+		padding-bottom: 20px;
+	}
+}
+/**************************
+Home Page Universal
+**************************/
+#about, #work, #services, #contact {
+	width: 100%;
+	overflow: hidden;
+	padding-top: 45px;
+	top: -45px;
+	text-align: center;
+	.container {
+		margin: 1em auto;
+		overflow: hidden;
+		padding-bottom: 50px;
+	}
+	h2, h3, h4, h5 {
+		font-family: $font__title;
+		font-weight: 300;
+		line-height: 1.75;
+	}
+	h2 {font-size: 2.5em; text-transform: uppercase;}
+	h3 {font-size: 1.5em; text-transform: uppercase;}
+	h4 {
+		font-size: 17px;
+		font-family: $font__title;
+		font-style: italic;
+	}
+}
+/**************************
+Home Page Intro Section
+**************************/
+#intro {
+	width: 100%;
+	height: 95%;
+	background: url(http://assets.imperomedia.com/images/hipster_desk1.jpg) center center;
+	background-size: cover;
+	top: 0;
+	position: relative;
+	z-index: 1;
+	padding-top: 75px;
+	border-bottom: 2px solid $faded_red;
+	 &:before {
+    content: '';
+		position: absolute;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		background-image: radial-gradient(circle at top, $white 5%, $dark 30%, $dark_red);
+		opacity: .6; 
+  }
+	.container {
+		margin: 3em auto;
+		max-width: 1170px;
+	}
+}
+/**************************
+Home Page About Section
+**************************/
+#about {
+	background: #fff;
+	box-sizing: border-box;
+	width: 100%;
+	h2 {font-size: 2em;}
+	p {
+		max-width: 960px;
+		margin: 0 auto;
+		font-style: italic;
+		font-size: 16px;
+		line-height: 28px;
+	}
+	.about_box {
+		width: 1040px;
+		margin: 0 auto;
+		padding: 0 50px;
+	}
+}
+/**************************
+Home Page Work/Portfolio Section
+**************************/
+#work {
+	background: $white;
+	color: $dark;
+	.col-lg-4 {
+		padding: 1px;
+		margin: 0;
+	}
+	.container {
+		width: 100%;
+		max-width: 100%;
+		padding: 0;
+		margin: 0 auto;
+	}
+	.view {
+		margin: 0;
+	}
+	h2 {margin-top: -15px;}
+	h3 {font-size: 2em; font-weight: 600;}
+}
+/**************************
+Home Page Services Section
+**************************/
+#services {
+	background: #fff;
+	color: $dark;
+	.container {
+		width: 100%;
+		max-width: 100%;
+		margin-top: -15px;
+		padding: 5%;
+		min-height: 400px;
+	}
+	h2 {
+		margin-top: -10px;
+		padding-bottom: 15px;
+	}
+	.module {
+		width: 100%;
+		padding: 0 2%;
+		h3 {
+			font-size: 20px;
+			font-weight: 600;
+			color: $dark;
+			&:hover {
+				color: $red;
+			}
+		}
+	}
+	figure {
+		margin: 0 0 20px;
+		text-align: center;
+	}
+	a:link, a:visited {
+		color: $dark_red;
+	}
+	a:hover, a:active, a:focus {
+		color: $red;
+	}
+	.service_desc_box {
+	}
+	.service_desc_text {
+	}
+}
+/**************************
+Home Page Contact Section
+**************************/
+#contact {
+	background: $white;
+	color: $dark;
+	h3, h4, p {
+		margin: 0 0 10px 0;
+	}
+	h3 {
+		font-size: 2.5em;
+		line-height: 1;
+	}
+	h4 { font-family: $serif;}
+	.container {
+		width: 100%;
+		.contact_left {
+			width: 60%;
+			float: left;
+			padding: 0 5%;
+		}
+		.contact_right {
+			width: 40%;
+			float: left;
+			text-align: center;
+			padding-right: 10%;
+		}
+	}
+}
+/**************************
+Services Pages
+**************************/
+#service-page {
+	h1 {
+		font-size: 3rem;
+		text-align: center;
+	}
+	.service-img {
+		display: block;
+		width: 100%;
+	}
+	img.attachment-full {
+		display: block;
+		margin: 0 auto;
+	}
+}
+.site-footer {
+	background: $dark_red;
+	min-height: 100px;
+	line-height: 100px;
+}

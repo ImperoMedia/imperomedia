@@ -1,0 +1,73 @@
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+	border: 1px solid;
+	border-color: $color__border-button;
+	border-radius: 3px;
+	background: $color__background-button;
+	box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5), inset 0 15px 17px rgba(255, 255, 255, 0.5), inset 0 -5px 12px rgba(0, 0, 0, 0.05);
+	color: rgba(0, 0, 0, .8);
+	@include font-size(0.75);
+	line-height: 1;
+	padding: .6em 1em .4em;
+	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);
+}
+
+button:hover,
+input[type="button"]:hover,
+input[type="reset"]:hover,
+input[type="submit"]:hover {
+	border-color: $color__border-button-hover;
+	box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.8), inset 0 15px 17px rgba(255, 255, 255, 0.8), inset 0 -5px 12px rgba(0, 0, 0, 0.02);
+}
+
+button:focus,
+input[type="button"]:focus,
+input[type="reset"]:focus,
+input[type="submit"]:focus,
+button:active,
+input[type="button"]:active,
+input[type="reset"]:active,
+input[type="submit"]:active {
+	border-color: $color__border-button-focus;
+	box-shadow: inset 0 -1px 0 rgba(255, 255, 255, 0.5), inset 0 2px 5px rgba(0, 0, 0, 0.15);
+}
+
+.btn {
+  border: 0 none;
+  border-radius: 2px 2px 2px 2px;
+  color: $paper;
+  cursor: pointer;
+  display: inline-block;
+  font-family: $proxima;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 22px;
+  margin: 10px;
+  padding: 7px 10px;
+  text-transform: uppercase;
+  border: 1px solid $paper;
+  transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -webkit-transition: all 0.3s ease 0s;
+  width: 16.795%; /* auto */
+  text-align: center; /* DELETE WHEN WIDTH AUTO */
+  &.red {
+    background: none repeat scroll 0 0 $faded_red_btn;
+    color: $white;
+    &:hover {
+      background: none repeat scroll 0 0 $dark_red;
+      color: $white;
+    }
+  }
+  &.dark {
+    background: none repeat scroll 0 0 $gunMetal;
+    color: $white;
+    &:hover {
+      background: none repeat scroll 0 0 $dark_gun;
+      color: $white;
+    }
+  }
+
+}

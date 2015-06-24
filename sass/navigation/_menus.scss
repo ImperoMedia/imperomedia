@@ -1,0 +1,154 @@
+.main-navigation {
+	/*clear: both;*/
+	display: block;
+	float: left; /*was left*/
+	margin-top: 10px;/*was20*/
+	font-family: $font__menu;
+	text-transform: uppercase;
+	text-align: center;
+	ul {
+		list-style: none;
+		margin: 0;
+		padding-left: 0;
+		font-size: 14px;
+		display: inline-block;
+		ul {
+			box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+			float: left;
+			position: absolute;
+			top: 3.5em;
+			left: -999em;
+			z-index: 99999;
+
+			ul {
+				left: -999em;
+				top: 0;
+			}
+
+			li {
+				color: $white;
+				background-color: $faded_white;
+				&:hover > ul {
+					left: 100%;
+				}
+			}
+
+			a {
+				width: 200px;
+				color: $dark_red;
+				&:hover {
+					color: $white;
+					background-color: $dark_red;
+				}
+			}
+
+			:hover > a {
+			}
+
+			a:hover {
+			}
+		}
+
+		li:hover > ul {
+			left: auto;
+		}
+	}
+	li {
+		float: left;
+		position: relative;
+		padding: 5px 15px;
+		margin-right: 1px;
+
+		a {
+			color: $white;
+		}		
+
+		&:hover > a {
+			color: $dark_red;
+		}
+
+		&:hover {
+			color: $dark_red;
+			background-color: $faded_white;
+		}
+	}
+	a {
+		display: block;
+		text-decoration: none;
+	}
+
+	.current_page_item > a,
+	.current-menu-item > a,
+	.current_page_ancestor > a {
+	}
+}
+/* Small menu. */
+.menu-toggle {
+	display: none;
+}
+/*After Scroll*/
+.f-nav {
+	li a {
+		color: $dark_red;
+		-webkit-transition: color 0.25s ease-in-out;
+		-moz-transition: color 0.25s ease-in-out;
+		transition: color 0.25s ease-in-out;
+		&:hover {
+			background-color: $faded_white;
+		}
+	}
+}
+
+@media screen and (max-width: 830px) {
+	.main-navigation {
+		max-width: 40%;
+		float: left;
+		margin-left: 10%;
+		margin-top: -10px;
+		button, input[type="button"], input[type="reset"], input[type="submit"] {
+		  border: none;
+		  border-radius: 3px;
+		  background: none;
+		  box-shadow: none;
+		  color: $white;
+		  font-size: 16px;
+		  font-size: 1.5rem;
+		  font-family: "proxima-nova-condensed";
+		  text-transform: uppercase;
+		  line-height: 1;
+		  padding: 1em 2em;
+		  text-shadow: 0 0 0 rgba(255, 255, 255, 0.8);
+		  min-width: 25%;
+		  margin-top: 10px;
+		}
+	}
+	.menu-toggle,
+	.main-navigation.toggled .nav-menu {
+		display: block;
+	}
+
+	.main-navigation ul {
+		display: none;
+	}
+}
+
+.comment-navigation,
+.posts-navigation,
+.post-navigation {
+
+	.site-main & {
+		margin: 0 0 1.5em;
+		overflow: hidden;
+	}
+
+	& .nav-previous {
+		float: left;
+		width: 50%;
+	}
+
+	& .nav-next {
+		float: right;
+		text-align: right;
+		width: 50%;
+	}
+}
