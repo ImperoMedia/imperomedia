@@ -9,6 +9,11 @@
 
 <section id="intro">
 
+<video autoplay loop poster="http://assets.imperomedia.com/video/im-hero-code/im-hero-code.jpg" id="bgvid">
+<source src="http://assets.imperomedia.com/video/im-hero-code/im-hero-code.webm" type="video/webm">
+<source src="http://assets.imperomedia.com/video/im-hero-code/im-hero-code.mp4" type="video/mp4">
+</video>
+
 	<div class="container">
 
 		<div class="hero_content animated fadeIn">

@@ -27,8 +27,11 @@ textarea {
 	font-family: $gotham;
 	text-decoration: none;
 	float: left;
-	padding-left: 100px;
+	padding-left: 50px;
 	font-weight: 300;
+	@media (max-width: 770px) {
+		font-size: 1em;
+	}
 }
 .f-nav h2 a {
 	color: $red;

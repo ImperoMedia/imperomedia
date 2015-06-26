@@ -55,11 +55,11 @@
 	transition: all 0.5s ease-in-out;
 }
 .view-tenth:hover > img {
-	-webkit-transform: scale(1.25) rotate(2deg);
-	-moz-transform: scale(1.25) rotate(2deg);
-	-o-transform: scale(1.25) rotate(2deg);
-	-ms-transform: scale(1.25) rotate(2deg);
-	transform: scale(1.25) rotate(2deg);
+	-webkit-transform: scale(1.125) rotate(1.6deg);
+	-moz-transform: scale(1.125) rotate(1.6deg);
+	-o-transform: scale(1.125) rotate(1.6deg);
+	-ms-transform: scale(1.125) rotate(1.6deg);
+	transform: scale(1.125) rotate(1.6deg);
 	-ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=30)";
 	filter: alpha(opacity=30);
 	opacity: 0.3;
@@ -101,7 +101,7 @@
 .view a.info {
 	font-size: 20px;
 	color: $white;
-	background: $gunMetal;
+	background: $red;
 	border: 1px solid #fff;
 	padding: 7px 14px;
 	text-decoration: none;
@@ -111,9 +111,9 @@
 	text-transform: uppercase;
 }
 .view a.info:hover {
-	background: $dark_gun;
-	color: $white;
-	border: 1px solid #fff;
+	background: $white;
+	color: $red;
+	border: 1px solid $red;
 }
 .view-tenth a.info {
 	-ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";

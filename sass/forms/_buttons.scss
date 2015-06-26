@@ -52,6 +52,7 @@ input[type="submit"]:active {
   -moz-transition: all 0.3s ease 0s;
   -webkit-transition: all 0.3s ease 0s;
   width: 16.795%; /* auto */
+  min-width: 120px;
   text-align: center; /* DELETE WHEN WIDTH AUTO */
   &.red {
     background: none repeat scroll 0 0 $faded_red_btn;
@@ -69,5 +70,4 @@ input[type="submit"]:active {
       color: $white;
     }
   }
-
 }
