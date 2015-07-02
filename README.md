@@ -13,6 +13,9 @@ I have had past versions of the site before, but this is my first big-boy build 
 ## Built With...
 
 _S theme
+
 Codekit
+
 Bootstrap Grids
+
 Include-Media
