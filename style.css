@@ -304,20 +304,22 @@ Home Page Work/Portfolio Section
   color: #3a3a3c; }
   #work .col-lg-4 {
     padding: 1px;
-    margin: 0; }
+    margin: 0;
+    border: 1px solid #efefef; }
   #work .container {
     width: 100%;
     max-width: 100%;
     padding: 0;
     margin: 0 auto; }
   #work .view {
-    margin: 0; }
+    margin: 0;
+    padding: 20px; }
   #work h2 {
     margin-top: -15px; }
   #work h3 {
     font-size: 2em;
     font-weight: 600;
-    color: #bf1e2e;
+    color: #671019;
     background-color: rgba(239, 239, 239, 0.9); }
 
 /**************************
@@ -410,7 +412,7 @@ video#bgvid {
   -webkit-transform: translateX(-50%) translateY(-50%);
   -ms-transform: translateX(-50%) translateY(-50%);
       transform: translateX(-50%) translateY(-50%);
-  background: url(polina.jpg) no-repeat;
+  background: url(http://assets.imperomedia.com/video/im-hero-code/im-hero-code.jpg) no-repeat;
   background-size: cover; }
 
 /*MISC*/
@@ -764,7 +766,7 @@ big {
 
 .view h3 {
   text-transform: uppercase;
-  color: #bf1e2e;
+  color: #671019;
   font-weight: 600;
   font-family: "proxima-nova";
   text-align: center;
@@ -776,7 +778,7 @@ big {
   text-shadow: none; }
 
 .view-tenth h3 {
-  color: #bf1e2e;
+  color: #671019;
   font-weight: 600;
   font-family: "proxima-nova";
   margin: 10px 40px 0;
@@ -794,7 +796,7 @@ big {
 .view a.info {
   font-size: 20px;
   color: #efefef;
-  background: #bf1e2e;
+  background: #671019;
   border: 1px solid #fff;
   padding: 7px 14px;
   text-decoration: none;
@@ -805,8 +807,8 @@ big {
 
 .view a.info:hover {
   background: #efefef;
-  color: #bf1e2e;
-  border: 1px solid #bf1e2e; }
+  color: #671019;
+  border: 1px solid #671019; }
 
 .view-tenth a.info {
   -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";

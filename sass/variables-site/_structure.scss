@@ -28,9 +28,7 @@ html, body, .main-content-area, .full, .site-main {height: 100%;}
 	position: fixed;
 	line-height: 2.5em;
 	z-index: 2;
-	-webkit-transition: all 0.5s ease-in-out;
-	-moz-transition: all 0.5s ease-in-out;
-	transition: all 0.5s ease-in-out;
+	@include transition(all 0.5s ease-in-out);
 	box-sizing: border-box;
 }
 .f-nav {
@@ -39,9 +37,7 @@ html, body, .main-content-area, .full, .site-main {height: 100%;}
 	height: 60px;
 	z-index: 3;
 	margin: -10px 0;
-	-webkit-transition: all 0.5s ease-in-out;
-	-moz-transition: all 0.5s ease-in-out;
-	transition: all 0.5s ease-in-out;
+	@include transition(all 0.5s ease-in-out);
 }
 .site-branding {
 	width: 30%;
@@ -282,6 +278,7 @@ Home Page Work/Portfolio Section
 	.col-lg-4 {
 		padding: 1px;
 		margin: 0;
+		border: 1px solid $white;
 	}
 	.container {
 		width: 100%;
@@ -291,12 +288,13 @@ Home Page Work/Portfolio Section
 	}
 	.view {
 		margin: 0;
+		padding: 20px;
 	}
 	h2 {margin-top: -15px;}
 	h3 {
 		font-size: 2em;
 		font-weight: 600;
-		color: $red;
+		color: $dark_red;
 		background-color: $faded_white;
 	}
 }
@@ -409,7 +407,7 @@ height: auto;
 z-index: -100;
 -webkit-transform: translateX(-50%) translateY(-50%);
 transform: translateX(-50%) translateY(-50%);
-background: url(polina.jpg) no-repeat;
+background: url(http://assets.imperomedia.com/video/im-hero-code/im-hero-code.jpg) no-repeat;
 background-size: cover;
 }
 /*MISC*/
