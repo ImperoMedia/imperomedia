@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: Portfolio
+ * Template Name: Projects
  *
  * This is the template that displays all pages by default.
  * Please note that this is the WordPress construct of pages
@@ -14,12 +14,12 @@ get_header(); ?>
 
 <div class="main-content-area full">
 
-	<div id="page-primary" class="content-area">
+	<div id="page-primary" style="max-width: 100%;" class="content-area">
 		<main id="main" class="site-main" role="main">
 
 			<?php while ( have_posts() ) : the_post(); ?>
 
-				<?php get_template_part( 'section', 'portfolio' ); ?>
+				<?php get_template_part( '/parts/section', 'portfoliosingle' ); ?>
 
 			<?php endwhile; // end of the loop. ?>
 

@@ -43,6 +43,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 	12.2 Galleries
 --------------------------------------------------------------*/
 @import "mixins/mixins-master";
+@import "mq/media-queries";
 @import "variables-site/variables-site";
 @import "bourbon", "neat";
 
@@ -62,7 +63,6 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 @import "elements/elements";
 @import "bootstrap";
 @import "sections/cases";
-@import "mixins/media-queries";
 
 /*--------------------------------------------------------------
 4.0 Forms

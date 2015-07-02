@@ -11,11 +11,11 @@ get_header(); ?>
 
 					<?php while ( have_posts() ) : the_post(); ?>
 
-						<?php get_template_part( 'section', 'intro' );
-							get_template_part( 'section', 'about' ); 
-							get_template_part( 'section', 'work' );
-							get_template_part( 'section', 'services' ); 
-							get_template_part( 'section', 'contact' );
+						<?php get_template_part( '/parts/section', 'intro' );
+							get_template_part( '/parts/section', 'about' ); 
+							get_template_part( '/parts/section', 'work' );
+							get_template_part( '/parts/section', 'services' ); 
+							get_template_part( '/parts/section', 'contact' );
 						?>
 
 					<?php endwhile; // end of the loop. ?>

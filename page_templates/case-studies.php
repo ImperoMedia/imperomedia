@@ -19,7 +19,7 @@ get_header(); ?>
 
 			<?php while ( have_posts() ) : the_post(); ?>
 
-				<?php get_template_part( 'section', 'cases' ); ?>
+				<?php get_template_part( '/parts/section', 'cases' ); ?>
 
 			<?php endwhile; // end of the loop. ?>
 

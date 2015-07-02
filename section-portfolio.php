@@ -6,8 +6,7 @@
  * @package Impero Media 2015
  */
 ?>
-<section id="portfolio">
-<?php echo do_shortcode([af-portfolio]); ?>
+<section id="project">
 	<div class="container">
 
 		<div class="row"><!--ROW ONE-->

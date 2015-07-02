@@ -6,8 +6,6 @@
  * Please note that this is the WordPress construct of pages
  * and that other 'pages' on your WordPress site will use a
  * different template.
- * 
- * Keep this page the same as /page-templates/case-studies.php
  *
  * @package Impero Media 2015
  */
@@ -20,7 +18,7 @@ get_header(); ?>
 
 		<?php while ( have_posts() ) : the_post(); ?>
 
-			<?php get_template_part( 'section', 'cases' ); ?>
+			<?php get_template_part( '/parts/section', 'cases' ); ?>
 
 		<?php endwhile; // end of the loop. ?>
 

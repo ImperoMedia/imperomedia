@@ -30,6 +30,7 @@ html, body, .main-content-area, .full, .site-main {height: 100%;}
 	z-index: 2;
 	@include transition(all 0.5s ease-in-out);
 	box-sizing: border-box;
+	@include clearfix-after();
 }
 .f-nav {
 	background: $faded_white;
@@ -44,7 +45,7 @@ html, body, .main-content-area, .full, .site-main {height: 100%;}
 	min-width: 350px;
 	float: left;
 	overflow: hidden;
-		@media (max-width: 770px) {
+		@include media("<tablet") {
 			min-width: 225px;
 		}
 }
@@ -74,7 +75,7 @@ html, body, .main-content-area, .full, .site-main {height: 100%;}
 			background: $white;
 		}
 	}
-	 @media (max-width: 1175px) {
+		@include media("<desktop") {
 	 	display: none;
 	 }
 }
@@ -165,30 +166,30 @@ Home Page Hero Section
 		font-size: 6em;
 		padding-bottom: 10px;
 		padding-top: 100px;
-		@media (max-width: 770px) {
+		@include media("<tablet") {
 			font-size: 5em;
 		}
-		@media (max-width: 610px) {
+		@include media("<phonelandscape") {
 			font-size: 3em;
 		}
 	}
 	h3 {
 		font-size: 2.5em;
 		padding-bottom: 20px;
-		@media (max-width: 770px) {
+		@include media("<tablet") {
 			font-size: 1.5em;
 		}
-		@media (max-width: 610px) {
+		@include media("<phonelandscape") {
 			font-size: 1em;
 		}
 	}
 	h4 {
 		font-size: 1.5em;
 		padding-bottom: 20px;
-		@media (max-width: 770px) {
+		@include media("<tablet") {
 			font-size: 1em;
 		}
-		@media (max-width: 610px) {
+		@include media("<phonelandscape") {
 			font-size: .75em;
 		}
 	}
@@ -233,16 +234,16 @@ Home Page Intro Section
 	z-index: 1;
 	padding-top: 75px;
 	border-bottom: 2px solid $faded_red;
-	 &:before {
-    content: '';
-		position: absolute;
-		top: 0;
-		right: 0;
-		bottom: 0;
-		left: 0;
-		background-image: radial-gradient(circle at top, $white 5%, $dark 30%, $dark_red);
-		opacity: .3; 
-  }
+		&:before {
+		    content: '';
+			position: absolute;
+			top: 0;
+			right: 0;
+			bottom: 0;
+			left: 0;
+			background-image: radial-gradient(circle at top, $white 5%, $dark 30%, $dark_red);
+			opacity: .3; 
+		}
 	.container {
 		margin: 10em auto;
 		max-width: 1170px;
@@ -392,6 +393,24 @@ Services Pages
 	background: $dark_red;
 	min-height: 100px;
 	line-height: 100px;
+}
+/**************************
+Projects/Portfolio
+**************************/
+#project {
+	.project_meta {
+		h3 {
+			font-size: 1em;
+		}
+	}
+	.project_meta_title {
+		font-weight: 600;
+		text-transform: uppercase;
+	}
+	.project_meta_field {
+		font-weight: 300;
+		font-family: $serif;
+	}
 }
 /**************************
 Home Video
