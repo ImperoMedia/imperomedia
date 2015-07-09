@@ -192,7 +192,7 @@ Home Page Hero Section
     margin: 0;
     padding: 0;
     color: #efefef;
-    font-family: "gotham", "Oswald", sans-serif;
+    font-family: "Gotham Narrow SSm A", "Gotham Narrow SSm B", "Oswald", sans-serif;
     text-transform: uppercase;
     line-height: 1; }
   .hero_content h2, .intro_headline h2, .intro_content h2 {
@@ -238,7 +238,7 @@ Home Page Universal
     overflow: hidden;
     padding-bottom: 50px; }
   #about h2, #about h3, #about h4, #about h5, #work h2, #work h3, #work h4, #work h5, #services h2, #services h3, #services h4, #services h5, #contact h2, #contact h3, #contact h4, #contact h5 {
-    font-family: "gotham", "Oswald", sans-serif;
+    font-family: "Gotham Narrow SSm A", "Gotham Narrow SSm B", "Oswald", sans-serif;
     font-weight: 300;
     line-height: 1.75; }
   #about h2, #work h2, #services h2, #contact h2 {
@@ -249,7 +249,7 @@ Home Page Universal
     text-transform: uppercase; }
   #about h4, #work h4, #services h4, #contact h4 {
     font-size: 17px;
-    font-family: "gotham", "Oswald", sans-serif;
+    font-family: "Gotham Narrow SSm A", "Gotham Narrow SSm B", "Oswald", sans-serif;
     font-style: italic; }
 
 /**************************
@@ -397,6 +397,9 @@ Services Pages
   background: #671019;
   min-height: 100px;
   line-height: 100px; }
+
+.img-border {
+  border: 10px solid white; }
 
 /**************************
 Projects/Portfolio
@@ -781,7 +784,6 @@ big {
   text-transform: uppercase;
   color: #671019;
   font-weight: 600;
-  font-family: "proxima-nova";
   text-align: center;
   position: relative;
   font-size: 16px;
@@ -793,7 +795,6 @@ big {
 .view-tenth h3 {
   color: #671019;
   font-weight: 600;
-  font-family: "proxima-nova";
   margin: 10px 40px 0;
   background: transparent;
   border-bottom: 1px solid rgba(239, 239, 239, 0.9);
@@ -809,6 +810,7 @@ big {
 .view a.info {
   font-size: 20px;
   color: #efefef;
+  font-family: "Knockout 48 A", "Knockout 48 B";
   background: #671019;
   border: 1px solid #fff;
   padding: 7px 14px;
@@ -1956,7 +1958,7 @@ a {
   /*was left*/
   margin-top: 10px;
   /*was20*/
-  font-family: "gotham", "Roboto", sans-serif;
+  font-family: "Gotham Narrow SSm A", "Gotham Narrow SSm B", "Roboto", sans-serif;
   text-transform: uppercase;
   text-align: center; }
   .main-navigation ul {

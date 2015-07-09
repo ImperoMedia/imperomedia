@@ -19,8 +19,8 @@ $font__pre: "Courier 10 Pitch", Courier, monospace;
 $font__line-height-body: 1.6875;
 $font__line-height-pre: 1.6;
 $font__sans: $gotham, sans-serif;
-$font__title: "gotham", 'Oswald', sans-serif;
+$font__title: $gotham, 'Oswald', sans-serif;
 $font__title__backup: 'Oswald', sans-serif;
-$font__menu: "gotham", 'Roboto', sans-serif;
+$font__menu: $gotham, 'Roboto', sans-serif;
 
 $sub_title: $knockout;

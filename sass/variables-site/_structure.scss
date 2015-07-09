@@ -394,6 +394,9 @@ Services Pages
 	min-height: 100px;
 	line-height: 100px;
 }
+.img-border {		
+	border: 10px solid lighten($white, 25%);
+}
 /**************************
 Projects/Portfolio
 **************************/

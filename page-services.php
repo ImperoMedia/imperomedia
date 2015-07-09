@@ -10,7 +10,7 @@
 <section id="service-page">
 	
 	<header class="entry-header">
-	<div class="service-img">
+	<div class="service-img img-border">
 			<?php the_post_thumbnail( 'full' ); ?>	
 	</div>
 	

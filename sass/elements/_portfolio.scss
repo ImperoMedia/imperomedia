@@ -8,7 +8,7 @@
 }
 .view-tenth p {
 	color: $dark;
-	font-family: $serif;
+	font-family: $sentinel;
 	-ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";
 	filter: alpha(opacity=0);
 	opacity: 0;
@@ -68,7 +68,6 @@
 	text-transform: uppercase;
 	color: $dark_red;
 	font-weight: 600;
-	font-family: $proxima;
 	text-align: center;
 	position: relative;
 	font-size: 16px;
@@ -80,7 +79,6 @@
 .view-tenth h3 {
 	color: $dark_red;
 	font-weight: 600;
-	font-family: $proxima;
 	margin: 10px 40px 0;
 	background: transparent;
 	border-bottom: 1px solid $faded_white;
@@ -101,6 +99,7 @@
 .view a.info {
 	font-size: 20px;
 	color: $white;
+	font-family: $knockout;
 	background: $dark_red;
 	border: 1px solid #fff;
 	padding: 7px 14px;
