@@ -11,10 +11,8 @@
 	<div class="blog_meta">
 		<?php if ( 'post' == get_post_type() ) : ?>
 		<div class="entry-meta">
-			<h3><span style="font-weight: 600;">POST TITLE:</span> <span style="font-weight: 300; font-style: italic;"><?php the_title(); ?></span></h3>
 			<h3><span style="font-weight: 600;">AUTHOR:</span> <span style="font-weight: 300; font-style: italic;"><?php the_author(); ?></span></h3>
 			<h3><span style="font-weight: 600;">POSTED:</span> <span style="font-weight: 300; font-style: italic;"><?php the_time('jS F Y') ?></span></h3>
-			<h3><span style="font-weight: 600;">FILED AS:</span> <span style="font-weight: 300; font-style: italic;"><?php the_category(', ') ?></span></h3>
 		</div><!-- .entry-meta -->
 		<?php endif; ?>
 	</div>
