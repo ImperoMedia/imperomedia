@@ -21,20 +21,19 @@
 	font-family: $serif;
 	color: $red;
 	padding: 7px 10px;
-	&::-webkit-input-placeholder {
-		color: $faded_red;
-		;
+		&::-webkit-input-placeholder {
+			color: $faded_red;
+		}
+		&:-moz-placeholder { /* Firefox 18- */
+			color: $faded_red;  
+		}
+		&::-moz-placeholder {  /* Firefox 19+ */
+			color: $faded_red;  
+		}
+		&:-ms-input-placeholder {  
+			color: $faded_red;  
+		}
 	}
-	&:-moz-placeholder { /* Firefox 18- */
-		color: $faded_red;  
-	}
-	&::-moz-placeholder {  /* Firefox 19+ */
-		color: $faded_red;  
-	}
-	&:-ms-input-placeholder {  
-		color: $faded_red;  
-	}
-}
 }
 
 button, input[type="button"], input[type="reset"], input[type="submit"] {
@@ -56,4 +55,21 @@ button, input[type="button"], input[type="reset"], input[type="submit"] {
 		background: $dark_gun;
 		box-shadow: none;
 	}
+}
+
+/*Formidable*/
+
+.frm_style_formidable-style.with_frm_style select {
+  font-size: 14px;
+  height: 34px;
+}
+.frm_form_field .form-field placeholder {
+	color: $red;
+}
+.frm_style_formidable-style.with_frm_style .frm_other_container select:not([multiple="multiple"]) {
+	width: 100%;
+}
+.frm_description {
+	color: #8a8a8a !important;
+	padding: 2px 0 0 5px !important;
 }

@@ -38,3 +38,57 @@ img {
 }
 
 @import "tables";
+
+/*Pull Quotes*/
+.pullquote-right {
+	float: right;
+    width: 200px;
+    background: url(images/openquote.gif) top left no-repeat;
+    color: $main;
+    font-size: 26px;
+    font-style: italic;
+    padding: 13px;
+    border-left: 1px solid $main;
+    .by {
+	    padding: 6px;
+	    font-size: 12px;
+	    color: $white;
+	    background: $main;
+	}
+	p {
+		line-height: 1.25;
+		margin: 20px 0;
+	}
+    blockquote {
+	    margin: 0; /* gets rid of the default blockquote margin */
+		// letter-spacing: 0.025em;
+		// text-align: center;
+		// font-variant: small-caps;
+		&:before {
+			content: '’’';
+			float: left;
+			position: relative;
+			top: -115px;
+			width: 0%;
+			height: 100%;
+			pointer-events: none;
+			font-size: 8em;
+			text-align: left;
+			font-family: Arial;
+			letter-spacing: -16px;
+			font-style: normal;
+			font-weight: bold;
+			color: rgba(0, 0, 0, 0.1);
+		}
+	}
+}
+.pullquote-left {
+	@extend .pullquote-right;
+	float: left;
+}
+
+/**************
+Lightbox Plugin
+**************/
+
+#lightbox #playPause {display: none;}

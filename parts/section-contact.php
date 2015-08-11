@@ -12,7 +12,7 @@
 
 	<div class="container">
 		<div class="contact_left">
-			<?php echo do_shortcode( '[contact-form-7 id="2913" title="Contact Form Home"]' ); ?>
+			<?php echo do_shortcode( '[formidable id="6"]' ); ?>
 		</div>
 
 		<div class="contact_right">
