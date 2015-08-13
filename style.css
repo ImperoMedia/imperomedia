@@ -1,20 +1,21 @@
 @charset "UTF-8";
 /*
 Theme Name: Impero Media 2015
-Theme URI: http://underscores.me/
-Author: Automattic
-Author URI: http://automattic.com/
-Description: Hi. I'm a starter theme called <code>Impero Media 2015</code>, or <em>underscores</em>, if you like. I'm a theme meant for hacking so don't use me as a <em>Parent Theme</em>. Instead try turning me into the next, most awesome, WordPress theme out there. That's what I'm here for.
-Version: 1.0.0
+Theme URI: http://imperomedia.com/
+Author: Luke Kohler
+Author URI: http://imperomedia.com/
+Description: Impero Media LLC is an independent website creation company. Part design, part development, all awesome. 
+Version: 3.1.0
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
-Text Domain: Impero Media 2015
-Tags:
 
 This theme, like WordPress, is licensed under the GPL.
 Use it to make something cool, have fun, and share what you've learned with others.
 
 Impero Media 2015 is based on Underscores http://underscores.me/, (C) 2012-2015 Automattic, Inc.
+
+Come see more cool stuff at https://github.com/ImperoMedia
+Our Headstart Theme is an advanced _s based theme that is essentially a blank framework with the boring starter steps done and some bells and whistles added. Come see it at https://github.com/ImperoMedia/headstart_theme.
 
 Normalizing styles have been helped along thanks to the fine work of
 Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
@@ -42,6 +43,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 	12.1 Captions
 	12.2 Galleries
 --------------------------------------------------------------*/
+/* #671019 */
 @import url(http://fonts.googleapis.com/css?family=Libre+Baskerville:400,700,400italic);
 /* 200, 300, 400, 500, 700, 800 */
 /* Only one weight */
@@ -935,7 +937,7 @@ a.cat-feature:hover i {
 .cat-feature-label {
   position: relative;
   bottom: 0px;
-  font-size: 14px;
+  font-size: 16px;
   display: block;
   padding: 7px 0;
   z-index: 9999;
@@ -946,8 +948,8 @@ a.cat-feature:hover i {
   line-height: 1.75;
   background-color: #fff;
   border-bottom: 3px solid #671019;
-  height: 60px;
-  font-family: "proxima-nova-condensed";
+  height: 70px;
+  font-family: "Gotham Narrow SSm A", "Gotham Narrow SSm B";
   border-radius: 0 0 5px 5px; }
 
 a.cat-feature:hover .cat-feature-label {

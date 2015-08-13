@@ -17,7 +17,7 @@
 <script>try{Typekit.load();}catch(e){}</script>
 <link rel="stylesheet" type="text/css" href="//cloud.typography.com/7132154/676568/css/fonts.css" />
 <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="/css/animate.min.css">
+<link rel="stylesheet" href="<?php bloginfo( 'template_url' ); ?>/css/animate.min.css">
 <link type="text/plain" rel="author" href="http://imperomedia.com/humans.txt" />
 
 <?php wp_head(); ?>
