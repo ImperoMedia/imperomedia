@@ -27,7 +27,7 @@
 
 						<div class="service_desc_box">
 							<div class="service_desc_text">
-								<?php the_field('service_desc_1-4'); ?></p>
+								<p><?php the_field('service_desc_1-4'); ?></p>
 							</div>
 						</div>
 					</div>
@@ -47,7 +47,7 @@
 						
 						<div class="service_desc_box">
 							<div class="service_desc_text">
-								<?php the_field('service_desc_2-4'); ?></p>
+								<p><?php the_field('service_desc_2-4'); ?></p>
 							</div>
 						</div>
 					</div>
@@ -66,7 +66,7 @@
 
 						<div class="service_desc_box">
 							<div class="service_desc_text">
-								<?php the_field('service_desc_3-4'); ?></p>
+								<p><?php the_field('service_desc_3-4'); ?></p>
 							</div>
 						</div>
 					</div>
@@ -85,7 +85,7 @@
 						
 						<div class="service_desc_box">
 							<div class="service_desc_text">
-								<?php the_field('service_desc_4-4'); ?></p>
+								<p><?php the_field('service_desc_4-4'); ?></p>
 							</div>
 						</div>
 					</div>

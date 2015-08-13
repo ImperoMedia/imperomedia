@@ -13,13 +13,6 @@
 <meta name='viewport' content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no' /><link rel="profile" href="http://gmpg.org/xfn/11">
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 
-<script src="//use.typekit.net/aam6vuu.js"></script>
-<script>try{Typekit.load();}catch(e){}</script>
-<link rel="stylesheet" type="text/css" href="//cloud.typography.com/7132154/676568/css/fonts.css" />
-<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="<?php bloginfo( 'template_url' ); ?>/css/animate.min.css">
-<link type="text/plain" rel="author" href="http://imperomedia.com/humans.txt" />
-
 <?php wp_head(); ?>
 </head>
 

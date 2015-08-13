@@ -18,13 +18,13 @@
 
 		<div class="hero_content animated fadeIn">
 
-			<div class="intro_headline"><h2><?php the_field ('intro_headline') ; ?></h2>
+			<div class="intro_headline"><h2 id="title1"><?php the_field ('intro_headline') ; ?></h2>
 
 			<div class="intro_content">
 
 				<h3><?php the_field ('intro_sub_headline_1') ; ?></h3>
 
-				<h4><?php the_field ('intro_sub_headline_2') ; ?></h4>
+				<h4 id="title2"><?php the_field ('intro_sub_headline_2') ; ?></h4>
 
 			</div>
 
