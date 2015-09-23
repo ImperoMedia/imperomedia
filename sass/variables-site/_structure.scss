@@ -258,7 +258,9 @@ Home Page About Section
 	background: #fff;
 	box-sizing: border-box;
 	width: 100%;
+
 	h2 {font-size: 2em;}
+
 	p {
 		max-width: 960px;
 		margin: 0 auto;
@@ -278,8 +280,9 @@ Home Page Work/Portfolio Section
 #work {
 	background: $white;
 	color: $dark;
+
 	.col-lg-4 {
-		padding: 1px;
+		padding: 5px;
 		margin: 0;
 		border: 1px solid $white;
 	}
@@ -292,8 +295,11 @@ Home Page Work/Portfolio Section
 	.view {
 		margin: 0;
 		padding: 20px;
+		background: $white;
 	}
-	h2 {margin-top: -15px;}
+	h2 {
+		margin-top: -15px;
+	}
 	h3 {
 		font-size: 2em;
 		font-weight: 600;
@@ -317,6 +323,13 @@ Home Page Services Section
 	h2 {
 		margin-top: -10px;
 		padding-bottom: 15px;
+	}
+	.service_item {
+		padding: 25px;
+		&:hover {
+			background-color: #eee;
+			@include transition(all 0.25s linear);
+		}
 	}
 	.module {
 		width: 100%;

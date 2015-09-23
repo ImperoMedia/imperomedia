@@ -287,7 +287,7 @@ Home Page Work/Portfolio Section
   background: #efefef;
   color: #3a3a3c; }
   #work .col-lg-4 {
-    padding: 1px;
+    padding: 5px;
     margin: 0;
     border: 1px solid #efefef; }
   #work .container {
@@ -297,7 +297,8 @@ Home Page Work/Portfolio Section
     margin: 0 auto; }
   #work .view {
     margin: 0;
-    padding: 20px; }
+    padding: 20px;
+    background: #efefef; }
   #work h2 {
     margin-top: -15px; }
   #work h3 {
@@ -321,6 +322,12 @@ Home Page Services Section
   #services h2 {
     margin-top: -10px;
     padding-bottom: 15px; }
+  #services .service_item {
+    padding: 25px; }
+    #services .service_item:hover {
+      background-color: #eee;
+      -webkit-transition: all 0.25s linear;
+      transition: all 0.25s linear; }
   #services .module {
     width: 100%;
     padding: 0 2%; }
@@ -717,11 +724,12 @@ big {
   font-size: 16px;
   position: relative;
   color: #3a3a3c;
-  padding: 10px 20px 10px;
+  padding: 5px 20px 5px;
   text-align: center; }
 
 .view-tenth p {
-  color: #3a3a3c;
+  color: #efefef;
+  background-color: #671019;
   font-family: "Sentinel SSm A", "Sentinel SSm B";
   -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";
   filter: alpha(opacity=0);
@@ -729,8 +737,8 @@ big {
   -webkit-transform: scale(0);
   -ms-transform: scale(0);
   transform: scale(0);
-  -webkit-transition: all 0.5s linear;
-  transition: all 0.5s linear; }
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out; }
 
 .view {
   z-index: 1;
@@ -757,16 +765,16 @@ big {
   left: 10px;
   margin-left: -10px;
   position: relative;
-  -webkit-transition: all 0.5s ease-in-out;
-  transition: all 0.5s ease-in-out; }
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out; }
 
 .view-tenth:hover > img {
-  -webkit-transform: scale(1.125) rotate(1.6deg);
-  -ms-transform: scale(1.125) rotate(1.6deg);
-  transform: scale(1.125) rotate(1.6deg);
-  -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=30)";
-  filter: alpha(opacity=30);
-  opacity: 0.3; }
+  -webkit-transform: scale(1.11) rotate(0deg);
+  -ms-transform: scale(1.11) rotate(0deg);
+  transform: scale(1.11) rotate(0deg);
+  -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=60)";
+  filter: alpha(opacity=60);
+  opacity: 0.6; }
 
 .view h3 {
   text-transform: uppercase;
@@ -789,8 +797,8 @@ big {
   -webkit-transform: scale(0);
   -ms-transform: scale(0);
   transform: scale(0);
-  -webkit-transition: all 0.5s linear;
-  transition: all 0.5s linear;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
   -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";
   filter: alpha(opacity=0);
   opacity: 0; }
@@ -822,8 +830,8 @@ big {
   -webkit-transform: scale(0);
   -ms-transform: scale(0);
   transform: scale(0);
-  -webkit-transition: all 0.5s linear;
-  transition: all 0.5s linear; }
+  -webkit-transition: all 0.4s linear;
+  transition: all 0.4s linear; }
 
 .view-tenth:hover h3,
 .view-tenth:hover p,
@@ -869,10 +877,8 @@ Actual Portfolio Page
   outline: none;
   display: block;
   position: relative;
-  transition: all 0.3s ease-in-out;
-  -moz-transition: all 0.3s ease-in-out;
-  -webkit-transition: all 0.3s ease-in-out;
-  -o-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
   border-radius: 5px 5px 0 0; }
   .portfolio-grid li > a:hover,
   .portfolio-grid li > a img:hover {
