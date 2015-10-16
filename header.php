@@ -12,7 +12,8 @@
 <meta charset="<?php bloginfo( 'charset' ); ?>">
 <meta name='viewport' content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no' /><link rel="profile" href="http://gmpg.org/xfn/11">
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
-
+<!-- <script src="//use.typekit.net/aam6vuu.js"></script>
+ -->
 <?php wp_head(); ?>
 </head>
 
